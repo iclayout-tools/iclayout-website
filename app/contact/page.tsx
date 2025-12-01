@@ -11,8 +11,11 @@ export default function Contact() {
     e.preventDefault();
     setFormState("submitting");
 
+    // Store form reference before async operation
+    const form = e.currentTarget;
+
     try {
-      const formData = new FormData(e.currentTarget);
+      const formData = new FormData(form);
       const data = {
         name: formData.get("name") as string,
         email: formData.get("email") as string,
@@ -32,7 +35,7 @@ export default function Contact() {
       if (response.ok) {
         setFormState("success");
         // Reset form
-        e.currentTarget.reset();
+        form.reset();
         // Reset state after 5 seconds
         setTimeout(() => setFormState("idle"), 5000);
       } else {
