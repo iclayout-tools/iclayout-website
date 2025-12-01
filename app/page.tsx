@@ -34,8 +34,16 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-20 pb-32 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto text-center">
+      <section className="relative pt-20 pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 z-0">
+          <div
+            className="absolute inset-0 bg-cover bg-center opacity-10"
+            style={{backgroundImage: "url('https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=1920&q=80')"}}
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800 opacity-95" />
+        </div>
+        <div className="max-w-7xl mx-auto text-center relative z-10">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-cyan-600 to-blue-700 bg-clip-text text-transparent">
             Intelligent Concepts and Layouts
           </h1>
@@ -70,119 +78,131 @@ export default function Home() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Service 1 */}
-            <div className="p-8 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400 transition hover:shadow-xl">
-              <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-6 h-6 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
-                </svg>
+            <div className="relative p-8 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400 transition hover:shadow-xl overflow-hidden">
+              <div className="absolute inset-0 opacity-5 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=800&q=80')"}} />
+              <div className="relative z-10">
+                <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-6">
+                  <svg className="w-6 h-6 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold mb-4 text-slate-900 dark:text-white">
+                  Integrated Circuit Layout Design
+                </h3>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">
+                  Expert IC layout and design services with precision and reliability you can trust.
+                </p>
+                <ul className="space-y-2 text-slate-600 dark:text-slate-300">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
+                    <span>Custom IC design solutions</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
+                    <span>Precision layout engineering</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
+                    <span>Industry-standard tools & practices</span>
+                  </li>
+                </ul>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-slate-900 dark:text-white">
-                Integrated Circuit Layout Design
-              </h3>
-              <p className="text-slate-600 dark:text-slate-300 mb-4">
-                Expert IC layout and design services with precision and reliability you can trust.
-              </p>
-              <ul className="space-y-2 text-slate-600 dark:text-slate-300">
-                <li className="flex items-start">
-                  <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                  <span>Custom IC design solutions</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                  <span>Precision layout engineering</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                  <span>Industry-standard tools & practices</span>
-                </li>
-              </ul>
             </div>
 
             {/* Service 2 */}
-            <div className="p-8 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400 transition hover:shadow-xl">
-              <div className="w-12 h-12 bg-cyan-100 dark:bg-cyan-900 rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-6 h-6 text-cyan-600 dark:text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                </svg>
+            <div className="relative p-8 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400 transition hover:shadow-xl overflow-hidden">
+              <div className="absolute inset-0 opacity-5 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80')"}} />
+              <div className="relative z-10">
+                <div className="w-12 h-12 bg-cyan-100 dark:bg-cyan-900 rounded-lg flex items-center justify-center mb-6">
+                  <svg className="w-6 h-6 text-cyan-600 dark:text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold mb-4 text-slate-900 dark:text-white">
+                  Custom Software Development
+                </h3>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">
+                  Tailored applications for your business—from concept to deployment.
+                </p>
+                <ul className="space-y-2 text-slate-600 dark:text-slate-300">
+                  <li className="flex items-start">
+                    <span className="text-cyan-600 dark:text-cyan-400 mr-2">✓</span>
+                    <span>Full-stack web applications</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-cyan-600 dark:text-cyan-400 mr-2">✓</span>
+                    <span>Custom business solutions</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-cyan-600 dark:text-cyan-400 mr-2">✓</span>
+                    <span>Modern, scalable architecture</span>
+                  </li>
+                </ul>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-slate-900 dark:text-white">
-                Custom Software Development
-              </h3>
-              <p className="text-slate-600 dark:text-slate-300 mb-4">
-                Tailored applications for your business—from concept to deployment.
-              </p>
-              <ul className="space-y-2 text-slate-600 dark:text-slate-300">
-                <li className="flex items-start">
-                  <span className="text-cyan-600 dark:text-cyan-400 mr-2">✓</span>
-                  <span>Full-stack web applications</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-cyan-600 dark:text-cyan-400 mr-2">✓</span>
-                  <span>Custom business solutions</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-cyan-600 dark:text-cyan-400 mr-2">✓</span>
-                  <span>Modern, scalable architecture</span>
-                </li>
-              </ul>
             </div>
 
             {/* Service 3 */}
-            <div className="p-8 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400 transition hover:shadow-xl">
-              <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-6 h-6 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
+            <div className="relative p-8 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400 transition hover:shadow-xl overflow-hidden">
+              <div className="absolute inset-0 opacity-5 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80')"}} />
+              <div className="relative z-10">
+                <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center mb-6">
+                  <svg className="w-6 h-6 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold mb-4 text-slate-900 dark:text-white">
+                  Business Efficiency Solutions
+                </h3>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">
+                  Process optimization and automation to streamline workflows and reduce costs.
+                </p>
+                <ul className="space-y-2 text-slate-600 dark:text-slate-300">
+                  <li className="flex items-start">
+                    <span className="text-indigo-600 dark:text-indigo-400 mr-2">✓</span>
+                    <span>Workflow automation</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-indigo-600 dark:text-indigo-400 mr-2">✓</span>
+                    <span>Process optimization</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-indigo-600 dark:text-indigo-400 mr-2">✓</span>
+                    <span>Custom integrations</span>
+                  </li>
+                </ul>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-slate-900 dark:text-white">
-                Business Efficiency Solutions
-              </h3>
-              <p className="text-slate-600 dark:text-slate-300 mb-4">
-                Process optimization and automation to streamline workflows and reduce costs.
-              </p>
-              <ul className="space-y-2 text-slate-600 dark:text-slate-300">
-                <li className="flex items-start">
-                  <span className="text-indigo-600 dark:text-indigo-400 mr-2">✓</span>
-                  <span>Workflow automation</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-indigo-600 dark:text-indigo-400 mr-2">✓</span>
-                  <span>Process optimization</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-indigo-600 dark:text-indigo-400 mr-2">✓</span>
-                  <span>Custom integrations</span>
-                </li>
-              </ul>
             </div>
 
             {/* Service 4 - AI Integration */}
-            <div className="p-8 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400 transition hover:shadow-xl">
-              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-6 h-6 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                </svg>
+            <div className="relative p-8 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400 transition hover:shadow-xl overflow-hidden">
+              <div className="absolute inset-0 opacity-5 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80')"}} />
+              <div className="relative z-10">
+                <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center mb-6">
+                  <svg className="w-6 h-6 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold mb-4 text-slate-900 dark:text-white">
+                  AI Integration & Workflow Automation
+                </h3>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">
+                  Harness the power of AI to transform your workflows and unlock new capabilities.
+                </p>
+                <ul className="space-y-2 text-slate-600 dark:text-slate-300">
+                  <li className="flex items-start">
+                    <span className="text-purple-600 dark:text-purple-400 mr-2">✓</span>
+                    <span>AI-powered automation</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-purple-600 dark:text-purple-400 mr-2">✓</span>
+                    <span>Intelligent workflow optimization</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-purple-600 dark:text-purple-400 mr-2">✓</span>
+                    <span>Custom AI solutions & integrations</span>
+                  </li>
+                </ul>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-slate-900 dark:text-white">
-                AI Integration & Workflow Automation
-              </h3>
-              <p className="text-slate-600 dark:text-slate-300 mb-4">
-                Harness the power of AI to transform your workflows and unlock new capabilities.
-              </p>
-              <ul className="space-y-2 text-slate-600 dark:text-slate-300">
-                <li className="flex items-start">
-                  <span className="text-purple-600 dark:text-purple-400 mr-2">✓</span>
-                  <span>AI-powered automation</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-purple-600 dark:text-purple-400 mr-2">✓</span>
-                  <span>Intelligent workflow optimization</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-purple-600 dark:text-purple-400 mr-2">✓</span>
-                  <span>Custom AI solutions & integrations</span>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -298,7 +318,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="text-xl font-bold text-white mb-4">IC Layout</h3>
+              <h3 className="text-xl font-bold text-white mb-4">iclayout.com</h3>
               <p className="text-slate-400">
                 Intelligent Concepts and Layouts—precision IC design and transformative software solutions.
               </p>
@@ -323,7 +343,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-slate-800 pt-8 text-center text-slate-400">
-            <p>&copy; {new Date().getFullYear()} IC Layout. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} iclayout.com. All rights reserved.</p>
           </div>
         </div>
       </footer>
