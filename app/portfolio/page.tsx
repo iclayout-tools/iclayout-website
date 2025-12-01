@@ -57,13 +57,13 @@ export default function Portfolio() {
                     ⚡ MVP in 5 Weeks
                   </div>
                   <div className="px-4 py-2 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-lg font-semibold border border-slate-200 dark:border-slate-700">
-                    🚀 Production Ready
+                    🚀 Full-Stack Platform
                   </div>
                 </div>
 
                 <p className="text-lg text-slate-600 dark:text-slate-300 mb-6">
                   A sophisticated platform for managing and visualizing complex relationship data, delivered from concept to
-                  production-ready MVP in just 5 weeks. Applicable to genealogy, organizational charts, network mapping, or any
+                  MVP in just 5 weeks. Applicable to genealogy, organizational charts, network mapping, or any
                   hierarchical data structure. This project showcases our ability to rapidly develop complex, data-driven
                   applications with intuitive user experiences.
                 </p>
@@ -89,7 +89,7 @@ export default function Portfolio() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                      <span>Production-ready in 5 weeks</span>
+                      <span>MVP delivered in 5 weeks</span>
                     </li>
                   </ul>
                 </div>

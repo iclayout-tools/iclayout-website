@@ -275,7 +275,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                    <span>Production-ready MVP in 5 weeks</span>
+                    <span>MVP delivered in 5 weeks</span>
                   </li>
                 </ul>
               </div>
