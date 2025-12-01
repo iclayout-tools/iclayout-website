@@ -163,8 +163,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900 dark:text-white mb-1">Email</h3>
-                    <a href="mailto:contact@iclayout.com" className="text-blue-600 dark:text-blue-400 hover:underline">
-                      contact@iclayout.com
+                    <a href="mailto:nathan@iclayout.com" className="text-blue-600 dark:text-blue-400 hover:underline">
+                      nathan@iclayout.com
                     </a>
                   </div>
                 </div>
