@@ -41,10 +41,10 @@ export default function Portfolio() {
                     Full-Stack Development
                   </span>
                   <span className="px-3 py-1 bg-cyan-100 dark:bg-cyan-900 text-cyan-700 dark:text-cyan-300 rounded-full text-sm font-semibold">
-                    React
+                    Modern Web Technologies
                   </span>
                   <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300 rounded-full text-sm font-semibold">
-                    Real-time Collaboration
+                    Data-Driven Platform
                   </span>
                 </div>
 
@@ -62,33 +62,33 @@ export default function Portfolio() {
                 </div>
 
                 <p className="text-lg text-slate-600 dark:text-slate-300 mb-6">
-                  A comprehensive genealogy platform enabling users to build, visualize, and share their family history.
-                  Features interactive tree visualization, collaborative editing, and robust data management—all delivered
-                  from concept to MVP in just 5 weeks.
+                  A sophisticated genealogy platform built with modern web technologies and delivered from concept to
+                  production-ready MVP in just 5 weeks. This project showcases our ability to rapidly develop complex,
+                  data-driven applications with intuitive user experiences.
                 </p>
 
                 <div className="mb-8">
-                  <h4 className="font-semibold text-slate-900 dark:text-white mb-3">Key Features:</h4>
+                  <h4 className="font-semibold text-slate-900 dark:text-white mb-3">Project Highlights:</h4>
                   <ul className="space-y-2 text-slate-600 dark:text-slate-300">
                     <li className="flex items-start">
                       <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                      <span>Interactive family tree visualization</span>
+                      <span>Full-stack web application</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                      <span>Real-time collaborative editing</span>
+                      <span>Modern, scalable architecture</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                      <span>Comprehensive data management</span>
+                      <span>Complex data relationships</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                      <span>Secure user authentication</span>
+                      <span>Responsive, intuitive interface</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                      <span>Responsive design for all devices</span>
+                      <span>Production-ready in 5 weeks</span>
                     </li>
                   </ul>
                 </div>
@@ -124,7 +124,7 @@ export default function Portfolio() {
                       <span className="text-4xl mr-3">🎨</span>
                       <div>
                         <div className="font-bold text-lg">Modern Tech Stack</div>
-                        <div className="text-blue-100">Built with React, Next.js, and modern tools</div>
+                        <div className="text-blue-100">Built with cutting-edge web technologies</div>
                       </div>
                     </div>
                   </div>
@@ -133,8 +133,8 @@ export default function Portfolio() {
                     <div className="flex items-center mb-2">
                       <span className="text-4xl mr-3">🔄</span>
                       <div>
-                        <div className="font-bold text-lg">Real-time Features</div>
-                        <div className="text-blue-100">Collaborative editing with instant updates</div>
+                        <div className="font-bold text-lg">Complex Functionality</div>
+                        <div className="text-blue-100">Advanced features with intuitive UX</div>
                       </div>
                     </div>
                   </div>

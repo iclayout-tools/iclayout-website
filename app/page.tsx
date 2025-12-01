@@ -233,28 +233,27 @@ export default function Home() {
               </div>
 
               <p className="text-lg text-slate-600 dark:text-slate-300 mb-6">
-                A sophisticated genealogy platform that enables users to build, visualize, and share their family history.
-                Built with modern web technologies, featuring interactive tree visualization, collaborative editing,
-                and comprehensive data management. Delivered from concept to MVP in just 5 weeks.
+                A sophisticated genealogy platform built with modern web technologies and delivered from concept to MVP in just 5 weeks.
+                This project demonstrates our ability to rapidly develop complex, data-driven applications with intuitive user experiences.
               </p>
               <div className="mb-8">
-                <h4 className="font-semibold text-slate-900 dark:text-white mb-3">Key Features:</h4>
+                <h4 className="font-semibold text-slate-900 dark:text-white mb-3">Project Highlights:</h4>
                 <ul className="grid md:grid-cols-2 gap-3 text-slate-600 dark:text-slate-300">
                   <li className="flex items-start">
                     <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                    <span>Interactive family tree visualization</span>
+                    <span>Full-stack web application</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                    <span>Real-time collaborative editing</span>
+                    <span>Modern, scalable architecture</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                    <span>Comprehensive data management</span>
+                    <span>Responsive design</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                    <span>Secure user authentication</span>
+                    <span>Production-ready MVP in 5 weeks</span>
                   </li>
                 </ul>
               </div>
