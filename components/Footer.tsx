@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-slate-800 pt-8 text-center text-slate-400">
-          <p>&copy; {new Date().getFullYear()} iclayout.com. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Lambda Holding LLC. All rights reserved.</p>
         </div>
       </div>
     </footer>
