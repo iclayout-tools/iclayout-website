@@ -141,6 +141,16 @@ export default function About() {
                 </p>
               </div>
             </div>
+
+            <div className="flex items-start">
+              <span className="text-emerald-600 dark:text-emerald-400 text-2xl mr-4">✓</span>
+              <div>
+                <h3 className="text-xl font-semibold mb-2 text-slate-900 dark:text-white">Boutique In-House Team</h3>
+                <p className="text-slate-600 dark:text-slate-300">
+                  Work directly with our core engineering team throughout your project. You get faster communication, consistent quality, and personal attention from the people actually building your solution.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

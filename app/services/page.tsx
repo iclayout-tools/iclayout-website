@@ -19,8 +19,11 @@ export default function Services() {
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-cyan-600 to-blue-700 bg-clip-text text-transparent">
             Our Services
           </h1>
-          <p className="text-xl text-slate-600 dark:text-slate-300">
+          <p className="text-xl text-slate-600 dark:text-slate-300 mb-4">
             Comprehensive solutions from silicon to software
+          </p>
+          <p className="text-lg text-slate-500 dark:text-slate-400">
+            Delivered by our boutique in-house team—work directly with the engineers building your solution
           </p>
         </div>
       </section>

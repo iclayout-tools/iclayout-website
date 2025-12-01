@@ -214,12 +214,16 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-8 text-slate-900 dark:text-white">
             Precision Engineering, Evolved
           </h2>
-          <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+          <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
             Founded on a foundation of precision IC layout design, we've evolved into a full-service software development partner leveraging cutting-edge AI technology.
             We apply the same meticulous engineering approach to every project—from silicon to software to intelligent automation.
             Our experience in integrated circuit design informs our software development, bringing unparalleled attention to detail,
             performance optimization, and system-level thinking to every solution we create. By integrating AI into our workflows and client solutions,
             we unlock new levels of efficiency and innovation that traditional approaches simply can't match.
+          </p>
+          <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+            As a boutique operation, you work directly with our core engineering team from concept to deployment. This means faster communication,
+            consistent quality, and personal attention to your project at every stage.
           </p>
         </div>
       </section>
