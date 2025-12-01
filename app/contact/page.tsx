@@ -11,12 +11,39 @@ export default function Contact() {
     e.preventDefault();
     setFormState("submitting");
 
-    // TODO: Implement actual form submission
-    // For now, just simulate success
-    setTimeout(() => {
-      setFormState("success");
-      setTimeout(() => setFormState("idle"), 3000);
-    }, 1000);
+    try {
+      const formData = new FormData(e.currentTarget);
+      const data = {
+        name: formData.get("name") as string,
+        email: formData.get("email") as string,
+        company: formData.get("company") as string,
+        service: formData.get("service") as string,
+        message: formData.get("message") as string,
+      };
+
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        setFormState("success");
+        // Reset form
+        e.currentTarget.reset();
+        // Reset state after 5 seconds
+        setTimeout(() => setFormState("idle"), 5000);
+      } else {
+        setFormState("error");
+        setTimeout(() => setFormState("idle"), 5000);
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      setFormState("error");
+      setTimeout(() => setFormState("idle"), 5000);
+    }
   };
 
   return (
