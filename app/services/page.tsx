@@ -66,7 +66,7 @@ export default function Services() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                  <span>Industry-standard tools and best practices</span>
+                  <span>Industry-standard tools and proven methodologies</span>
                 </li>
               </ul>
             </div>

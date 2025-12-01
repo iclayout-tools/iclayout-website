@@ -190,7 +190,7 @@ export default function Portfolio() {
               </div>
               <h3 className="text-xl font-bold mb-3 text-slate-900 dark:text-white">Full-Stack Development</h3>
               <p className="text-slate-600 dark:text-slate-300 mb-4">
-                Modern web applications built with cutting-edge technologies and best practices.
+                Modern web applications built with cutting-edge technologies and clean, maintainable code.
               </p>
               <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-300">
                 <li>• React, Next.js, Node.js</li>
