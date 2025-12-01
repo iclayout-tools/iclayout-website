@@ -12,11 +12,11 @@ export default function Resources() {
   // Placeholder articles - these can be expanded with real content later
   const articles = [
     {
-      title: "IC Layout Best Practices for Beginners",
-      description: "Essential tips for getting started with integrated circuit layout design, including DRC/LVS fundamentals.",
+      title: "Getting Started with IC Layout Design",
+      description: "Essential tips for integrated circuit layout design, including DRC/LVS fundamentals and common pitfalls to avoid.",
       category: "IC Design",
       readTime: "8 min read",
-      slug: "ic-layout-best-practices"
+      slug: "getting-started-ic-layout"
     },
     {
       title: "Navigating Semiconductor Industry Layoffs",
