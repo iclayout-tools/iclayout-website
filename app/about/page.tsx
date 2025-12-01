@@ -4,8 +4,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us - IC Layout",
-  description: "Learn about IC Layout's journey from precision IC design to full-service software development with AI integration.",
+  title: "About Us - iclayout.com",
+  description: "Learn about iclayout.com's journey from precision IC design to full-service software development with AI integration.",
 };
 
 export default function About() {
@@ -17,7 +17,7 @@ export default function About() {
       <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-cyan-600 to-blue-700 bg-clip-text text-transparent">
-            About IC Layout
+            About iclayout.com
           </h1>
           <p className="text-xl text-slate-600 dark:text-slate-300">
             Precision engineering meets innovative software development
@@ -33,7 +33,7 @@ export default function About() {
           </h2>
           <div className="space-y-6 text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
             <p>
-              IC Layout was founded on a foundation of precision integrated circuit design. Our expertise in IC layout engineering—where
+              iclayout.com was founded on a foundation of precision integrated circuit design. Our expertise in IC layout engineering—where
               every nanometer matters—taught us the value of meticulous attention to detail, rigorous testing, and systematic problem-solving.
             </p>
             <p>

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Services - IC Layout",
+  title: "Our Services - iclayout.com",
   description: "Integrated circuit design, custom software development, business efficiency solutions, and AI integration services.",
 };
 

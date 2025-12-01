@@ -7,7 +7,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center">
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-              IC Layout
+              iclayout.com
             </span>
           </Link>
           <div className="hidden md:flex space-x-8">
