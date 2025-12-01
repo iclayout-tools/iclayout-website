@@ -33,17 +33,17 @@ export default function About() {
           </h2>
           <div className="space-y-6 text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
             <p>
-              iclayout.com was founded on a foundation of precision integrated circuit design. Our expertise in IC layout engineering—where
-              every nanometer matters—taught us the value of meticulous attention to detail, rigorous testing, and systematic problem-solving.
+              We founded iclayout.com because we love making things efficient. Our team comes from diverse backgrounds—IC layout, CAD,
+              circuit design, and wholesale distribution—but we all share the same drive: finding better ways to solve problems.
             </p>
             <p>
-              As technology evolved, so did we. We recognized that the same engineering principles that make great IC designs also create
-              exceptional software. We expanded our services to include full-stack software development, bringing our precision-first
-              approach to web applications, business solutions, and custom platforms.
+              Whether we were optimizing chip designs, streamlining logistics operations, or building CAD tools, we learned that efficiency
+              thinking applies everywhere. The same systematic approach that minimizes circuit parasitics also optimizes delivery routes,
+              workflow automation, and software architecture.
             </p>
             <p>
-              Today, we're at the forefront of AI integration, helping businesses transform their workflows with intelligent automation
-              and cutting-edge technology. Whether we're designing circuits or building software, our commitment to excellence remains unchanged.
+              That's why we expanded into custom software development and AI integration. We bring the same optimization mindset to every
+              project, whether we're designing circuits or building applications that transform how businesses operate.
             </p>
           </div>
         </div>
