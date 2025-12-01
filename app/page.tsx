@@ -222,7 +222,7 @@ export default function Home() {
             we unlock new levels of efficiency and innovation that traditional approaches simply can't match.
           </p>
           <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-            As a boutique operation, you work directly with our core engineering team from concept to deployment. This means faster communication,
+            We take a true partnership approach—you work directly with the engineers building your solution from concept to deployment. This means faster communication,
             consistent quality, and personal attention to your project at every stage.
           </p>
         </div>

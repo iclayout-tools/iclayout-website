@@ -23,7 +23,7 @@ export default function Services() {
             Comprehensive solutions from silicon to software
           </p>
           <p className="text-lg text-slate-500 dark:text-slate-400">
-            Delivered by our boutique in-house team—work directly with the engineers building your solution
+            True partnership approach—work directly with the engineers building your solution
           </p>
         </div>
       </section>
