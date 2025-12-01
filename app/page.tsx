@@ -43,7 +43,7 @@ export default function Home() {
             From precision IC layout design to transformative software solutions
           </p>
           <p className="text-lg text-slate-500 dark:text-slate-400 mb-12 max-w-3xl mx-auto">
-            We turn complex technical challenges into elegant solutions—whether designing integrated circuits or building custom software that drives business efficiency.
+            We turn complex technical challenges into elegant solutions—whether designing integrated circuits, building custom software, or integrating AI to transform workflows and drive business efficiency.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -68,7 +68,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-center mb-16 text-slate-900 dark:text-white">
             Our Services
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Service 1 */}
             <div className="p-8 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400 transition hover:shadow-xl">
               <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-6">
@@ -155,6 +155,35 @@ export default function Home() {
                 </li>
               </ul>
             </div>
+
+            {/* Service 4 - AI Integration */}
+            <div className="p-8 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400 transition hover:shadow-xl">
+              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-slate-900 dark:text-white">
+                AI Integration & Workflow Automation
+              </h3>
+              <p className="text-slate-600 dark:text-slate-300 mb-4">
+                Harness the power of AI to transform your workflows and unlock new capabilities.
+              </p>
+              <ul className="space-y-2 text-slate-600 dark:text-slate-300">
+                <li className="flex items-start">
+                  <span className="text-purple-600 dark:text-purple-400 mr-2">✓</span>
+                  <span>AI-powered automation</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-purple-600 dark:text-purple-400 mr-2">✓</span>
+                  <span>Intelligent workflow optimization</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-purple-600 dark:text-purple-400 mr-2">✓</span>
+                  <span>Custom AI solutions & integrations</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -166,10 +195,11 @@ export default function Home() {
             Precision Engineering, Evolved
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-            Founded on a foundation of precision IC layout design, we've evolved into a full-service software development partner.
-            We apply the same meticulous engineering approach to every project—from silicon to software.
+            Founded on a foundation of precision IC layout design, we've evolved into a full-service software development partner leveraging cutting-edge AI technology.
+            We apply the same meticulous engineering approach to every project—from silicon to software to intelligent automation.
             Our experience in integrated circuit design informs our software development, bringing unparalleled attention to detail,
-            performance optimization, and system-level thinking to every solution we create.
+            performance optimization, and system-level thinking to every solution we create. By integrating AI into our workflows and client solutions,
+            we unlock new levels of efficiency and innovation that traditional approaches simply can't match.
           </p>
         </div>
       </section>
