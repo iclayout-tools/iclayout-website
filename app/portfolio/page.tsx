@@ -49,7 +49,7 @@ export default function Portfolio() {
                 </div>
 
                 <h3 className="text-3xl font-bold mb-4 text-slate-900 dark:text-white">
-                  Ancestry Tree Builder Platform
+                  Relationship Data Visualization Platform
                 </h3>
 
                 <div className="flex flex-wrap gap-4 mb-6">
@@ -62,9 +62,10 @@ export default function Portfolio() {
                 </div>
 
                 <p className="text-lg text-slate-600 dark:text-slate-300 mb-6">
-                  A sophisticated genealogy platform built with modern web technologies and delivered from concept to
-                  production-ready MVP in just 5 weeks. This project showcases our ability to rapidly develop complex,
-                  data-driven applications with intuitive user experiences.
+                  A sophisticated platform for managing and visualizing complex relationship data, delivered from concept to
+                  production-ready MVP in just 5 weeks. Applicable to genealogy, organizational charts, network mapping, or any
+                  hierarchical data structure. This project showcases our ability to rapidly develop complex, data-driven
+                  applications with intuitive user experiences.
                 </p>
 
                 <div className="mb-8">
@@ -80,7 +81,7 @@ export default function Portfolio() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>
-                      <span>Complex data relationships</span>
+                      <span>Hierarchical data management</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-600 dark:text-blue-400 mr-2">✓</span>

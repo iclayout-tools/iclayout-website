@@ -219,7 +219,7 @@ export default function Home() {
           <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-2xl overflow-hidden">
             <div className="p-8 md:p-12">
               <h3 className="text-3xl font-bold mb-4 text-slate-900 dark:text-white">
-                Ancestry Tree Builder Platform
+                Relationship Data Visualization Platform
               </h3>
 
               {/* Project Stats */}
@@ -233,8 +233,10 @@ export default function Home() {
               </div>
 
               <p className="text-lg text-slate-600 dark:text-slate-300 mb-6">
-                A sophisticated genealogy platform built with modern web technologies and delivered from concept to MVP in just 5 weeks.
-                This project demonstrates our ability to rapidly develop complex, data-driven applications with intuitive user experiences.
+                A sophisticated platform for managing and visualizing complex relationship data, built with modern web technologies
+                and delivered from concept to MVP in just 5 weeks. Perfect for genealogy, organizational charts, network mapping,
+                or any scenario requiring hierarchical data visualization. This project demonstrates our ability to rapidly develop
+                complex, data-driven applications with intuitive user experiences.
               </p>
               <div className="mb-8">
                 <h4 className="font-semibold text-slate-900 dark:text-white mb-3">Project Highlights:</h4>
