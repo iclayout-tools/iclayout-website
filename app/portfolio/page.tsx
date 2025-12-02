@@ -93,18 +93,6 @@ export default function Portfolio() {
                     </li>
                   </ul>
                 </div>
-
-                <a
-                  href="https://tree.iclayout.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition shadow-lg hover:shadow-xl"
-                >
-                  Explore the Platform
-                  <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                  </svg>
-                </a>
               </div>
 
               <div className="bg-gradient-to-br from-blue-500 to-cyan-500 p-8 md:p-12 flex flex-col justify-center">
