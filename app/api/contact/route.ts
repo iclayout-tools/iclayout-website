@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
     if (!process.env.RESEND_API_KEY) {
       console.error('RESEND_API_KEY not configured');
       return NextResponse.json(
-        { error: 'Email service not configured. Please contact us directly at nathan@iclayout.com' },
+        { error: 'Email service not configured. Please contact us directly at contact@iclayout.com' },
         { status: 500 }
       );
     }
@@ -37,7 +37,7 @@ export async function POST(request: NextRequest) {
     // Send email using Resend
     await resend.emails.send({
       from: 'Website Contact Form <onboarding@resend.dev>', // Will change after domain verification
-      to: 'nathan@iclayout.com',
+      to: 'nathan@iclayout.com', // Using nathan@ until contact@ alias is fully configured
       replyTo: email,
       subject: `New Contact Form Submission from ${name}`,
       html: `
@@ -69,7 +69,7 @@ Sent from iclayout.com contact form
   } catch (error) {
     console.error('Error sending email:', error);
     return NextResponse.json(
-      { error: 'Failed to send message. Please try again or email us directly at nathan@iclayout.com' },
+      { error: 'Failed to send message. Please try again or email us directly at contact@iclayout.com' },
       { status: 500 }
     );
   }
