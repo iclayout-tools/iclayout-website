@@ -36,8 +36,8 @@ export async function POST(request: NextRequest) {
 
     // Send email using Resend
     await resend.emails.send({
-      from: 'Website Contact Form <onboarding@resend.dev>', // Will change after domain verification
-      to: 'nathan@iclayout.com', // Using nathan@ until contact@ alias is fully configured
+      from: 'Website Contact Form <onboarding@resend.dev>',
+      to: process.env.RESEND_TO_EMAIL || 'contact@iclayout.com',
       replyTo: email,
       subject: `New Contact Form Submission from ${name}`,
       html: `
